@@ -24,7 +24,7 @@ CODEFORCODE is a standalone software designed to simplify the analysis of the ce
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/DNA-Sequence-Analyzer.git
+   git clone https://github.com/samuel354/Final-CSCI203-Project/codeforcode.git
    cd DNA-Sequence-Analyzer
    ```
 2. Install dependencies:

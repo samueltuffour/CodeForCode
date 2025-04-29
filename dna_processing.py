@@ -1,37 +1,14 @@
-import turtle
-import math
+# Handles transcription and translation
+from config import codon_table
 
-def draw_dna():
-    screen = turtle.Screen()
-    screen.bgcolor("black")
-    pen = turtle.Turtle()
-    pen.speed(0)
-    pen.pensize(2)
+def transcribe_dna_to_mrna(dna):
+    return dna.replace('A', 'U').replace('T', 'A').replace('C', 'G').replace('G', 'C')
 
-    # Setup colors
-    color1 = "cyan"
-    color2 = "magenta"
-    base_colors = ["yellow", "green"]
-
-    # Draw the helix
-    for x in range(-200, 201, 4):
-        y = 100 * math.sin(x * 0.04)
-        pen.penup()
-        pen.goto(x, y)
-        pen.pendown()
-
-        # Draw spiral backbone
-        pen.color(color1)
-        pen.dot(10)
-        pen.color(color2)
-        pen.goto(x, -y)
-        pen.dot(10)
-
-        # Connect the bases
-        pen.color(base_colors[(x//4) % 2])
-        pen.goto(x, y)
-
-    pen.hideturtle()
-    turtle.done()
-
-draw_dna()
+def translate_mrna_to_protein(mrna):
+    protein_sequence = []
+    if len(mrna) >= 3:
+        for i in range(0, len(mrna), 3):
+            codon = mrna[i:i+3]
+            protein = codon_table.get(codon, "Unknown")
+            protein_sequence.append(f"{codon} → {protein}")
+    return protein_sequence

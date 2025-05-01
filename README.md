@@ -19,7 +19,7 @@ CODEFORCODE is a standalone software designed to simplify the analysis of the ce
 ## Installation
 ### Prerequisites
 - Python (>=3.8) 
-- Required libraries: Biopython, Matplotlib, PyQt/Tkinter (for GUI)
+- Required libraries: Turtle, PyQt5, PyQt/Tkinter (for GUI)
 
 ### Steps
 1. Clone the repository:

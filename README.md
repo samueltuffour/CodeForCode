@@ -70,9 +70,17 @@ View how the mutation affects the mRNA and resulting amino acid sequence.
 - Enhance visualization with 3D molecular structures.
 - Enable comparison with real genomic datasets.
 
-## CITATIONS
+## Citations and Acknowledgments
 
-This project is licensed under the MIT License.
+This project was built with the help of several valuable resources:
+
+- [Tech With Tim’s YouTube Tutorial on PyQt5 & PyQt6](https://youtu.be/Vde5SH8e1OQ)
+  This video helped me understand the fundamentals of PyQt GUI design, signal-slot mechanisms, and how to structure user interfaces in Python.
+
+- [National Human Genome Research Institute’s Central Dogma Glossary Entry](https://www.genome.gov/genetics-glossary/Central-Dogma)
+  This source provided clear explanations of the processes of transcription and translation, which formed the biological foundation for the project. It helped me model the steps of the central dogma accurately in the simulation.
+
+- I also received inspiration and clarification on object-oriented design and defensive programming from various online Python communities and documentation.
 
 ## Contributing
 

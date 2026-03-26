@@ -2,6 +2,9 @@
 
 ## #CODEFORCODE (A tool for the Central Dogma of molecular biology)
 
+<img width="1078" height="623" alt="image" src="https://github.com/user-attachments/assets/3417241a-9e48-402e-b8d0-4a0ce6184fc4" />
+
+
 ## INSPIRATION
 
 Code for Code is a project inspired by my BIOL204 class, in which we discussed the central dogma of molecular biology, which includes DNA replication, transcription, translation, and a whole lot more. The goal is to make software that takes all of this data and analyzes it into meaningful data that can also be visualized on a molecular level.
